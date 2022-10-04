@@ -1,0 +1,33 @@
+5 dimensional representation of the the rectangle pose - Lenz et AL
+
+Two types of metrics:
+point based grasps
+rectangle based grasps jiang et al
+
+Jaccard index?
+- measure of similarity between two sets
+
+
+Salient Object Detection in the Deep Learning Era: An In-depth Survey
+Salient Object Detection
+Test out deep and non deep sod models
+- FCN, capsule, multi layer perceptron
+- Does not include Video SOD, can be a potential for evalutation
+Jiang et al uses traditional methods to evaluate oriented rectangles, vohra et al also. Should test deep learning based methods for evaluation as well.
+Conditional Random Field Post processing??
+
+Questions i have now:
+- if i managed to detect something, how can i compare it across different models? Like are there ground truths?
+- Datasets? refer to table 10
+
+Kumra et al. [5]
+used ResNet as a feature extractor to detect robotic grasps from RGD images by replacing the blue channel of a image by the depth channel, which increases the accuracy to about 89%. 
+
+The two cascaded method uses machine learning to detect the features, using two passes to prune out and still perform with similar accuracy with more computational efficiency.
+Improving the two cascaded system: a simi-lar feature-learning approach might be applied to hand camera images of graspable and non-graspable regi•ons, improving the visual servoing system’s ability to fine-tune gripper position to ensure a good grasp.
+
+Structured Multimodal Regularization - just means that for a single frame, you have data that is fused from different sensors. 
+
+GG-CNN - interesting way to simplify the learning, and it seems that the code is already available. So not really sure what to do?
+
+accluded?? it;s blcked

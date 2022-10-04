@@ -1,0 +1,8 @@
+a)
+
+ reached in 4 actions / 5 states, terminate at global minima
+
+b) reached in 4 actions / 5 states and it does not terminate
+ at goal state and reaches a local minimum. 
+It will always oscillate between 2 misplaces tiles. Nothing better.
+4th action is where we check to terminate
